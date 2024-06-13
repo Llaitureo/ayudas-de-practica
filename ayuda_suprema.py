@@ -31,7 +31,7 @@
     #abre el archivo, w es para escribir, +a para escribir sin sobreescribir, ocupa w por ahora.
     
         open with ("archivo.csv","w") as archive:
-            escritor = csv.write(archive)
+            escritor = csv.writer(archive)
             #escoje una de estas opcNúmero.., la que sea mas adecuada.
             opc1.. escritor.writerow( *lista* )
             opc2.. escritor.writerows( *lista de listas (matrizes, tuplas, listas con diccionarios)* )
